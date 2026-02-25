@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon-32x32.png" alt="img/png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calificación | Reviews de Estrellas</title>
+  </head>
+  <body>
+    <main>
+      <div id="rating-card">
+        <img src="./images/icon-star.svg" alt="icono de estrella" />
+        <h1>¿Cómo lo hicimos?</h1>
+        <p>
+          Por favor, haznos saber cómo lo hicimos con tu solicitud de soporte.
+          Todos los comentarios son bienvenidos para ayudarnos a mejorar nuestra
+          oferta!
+        </p>
+        <div id="rating-stars">
+          <button class="star" data-value="1">1</button>
+          <button class="star" data-value="2">2</button>
+          <button class="star" data-value="3">3</button>
+          <button class="star" data-value="4">4</button>
+          <button class="star" data-value="5">5</button>
+        </div>
+        <button id="Submit">Enviar</button>
+      </div>
+      <div id="Thank-you-card" class="hidden">
+        <img src="./images/illustration-thank-you.svg" alt="" />
+        <p>Seleccionaste <span id="rating-display"></span>de 5</p>
+        <h2>¡Gracias!</h2>
+        <p>
+          Agradecemos que te hayas tomado el tiempo de dar una calificación. Si
+          alguna vez necesitas mas ayuda, no dudes en volver a ponerte en
+          contacto con nosotros
+        </p>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
